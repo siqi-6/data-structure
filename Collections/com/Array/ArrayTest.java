@@ -1,6 +1,6 @@
 package com.Array;
 
-public class Test {
+public class ArrayTest {
     public static void main(String[] args) {
         Array<Integer> arr = new Array<>();
 
@@ -37,7 +37,7 @@ public class Test {
         arr.update(1,8);
         System.out.println(arr);
         // 根据值查索引
-        System.out.println(arr.find(0));
+        System.out.println(arr.get(0));
         // 根据索引查值
         System.out.println(arr.returnIndex(10));
         // 是否为空

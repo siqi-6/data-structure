@@ -111,7 +111,7 @@ public class Array<E> {
          arr[index] =value;
     }
     // 根据索引查值
-    public E find(int index){
+    public E get(int index){
         if(index<0||index>=arr.length){
             throw new ArrayIndexOutOfBoundsException("索引越界");
         }
