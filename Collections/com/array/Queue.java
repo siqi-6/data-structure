@@ -1,4 +1,4 @@
-package com.Array;
+package com.array;
 
 public class Queue<E> {
 

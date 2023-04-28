@@ -1,6 +1,6 @@
-package com;
+package com.circle;
 
-import com.CircleQueue;
+import com.circle.CircleQueue;
 
 public class CircleTest {
     public static void main(String[] args) {
