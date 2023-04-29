@@ -2,7 +2,7 @@ package com.linkedList;
 
 public class linkedListTest {
     public static void main(String[] args) {
-        LinkedList<Integer> list = new LinkedList<Integer>();
+        linkedList<Integer> list = new linkedList<Integer>();
         for (int i = 0; i < 4; i++) {
             list.addLast(i);
         }

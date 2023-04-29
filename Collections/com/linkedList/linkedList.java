@@ -1,11 +1,11 @@
 package com.linkedList;
 
-public class LinkedList<E> {
+public class linkedList<E> {
 
     private Node dummyHead;
     private  int size ;
 
-    public LinkedList(){
+    public linkedList(){
         size = 0 ;
         dummyHead = new Node(null,null) ;
     }
@@ -128,7 +128,7 @@ public class LinkedList<E> {
 
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append(String.format("size: %d \t",getSize()));
+        sb.append(String.format("size: %d \t",size));
         sb.append("Linkedlist:head [");
         Node cur = dummyHead.next;
         while(cur!=null){
@@ -148,6 +148,4 @@ public class LinkedList<E> {
             this.next = next;
         }
     }
-
-
 }
